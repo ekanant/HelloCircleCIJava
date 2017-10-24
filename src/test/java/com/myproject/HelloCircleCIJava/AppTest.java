@@ -35,4 +35,12 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    /**
+     * Impossible test case  2 is not equal 1
+     */
+    public void myTestCase()
+    {
+    	assertEquals(2, 1);
+    }
 }
