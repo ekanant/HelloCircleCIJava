@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: openjdk:6-jdk
+      - image: ninjabenz/openjdk:6-jdk
       
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
